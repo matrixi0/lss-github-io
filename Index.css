@@ -737,10 +737,10 @@ video {
 }
 .navbar-light .navbar-brand {
 	color: #000;
-	font-size: 25px;
+	font-size: 16px;
 	text-transform: uppercase;
 	font-weight: bold;
-	letter-spacing: 2px;
+	letter-spacing: 1px;
 }
 .navbar-light .navbar-brand span {
 	color: #1977cc;
