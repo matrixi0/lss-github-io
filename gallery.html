@@ -10,12 +10,12 @@
         <link rel="icon" type="image/x-icon" href="images/favicon.ico">
 
         </head>
-     <body style="background-image: url('images/form3.png');
+     <body style="width: auto;
             height: 100vh">
         <header class="header">
              <nav class="navbar navbar-expand-lg navbar-light bg-light ">
   <div class="container-fluid">
-    <a class="navbar-brand" href="Index.html"><img src="images/logo.png" alt="LSS" width="90" height="90" >Lanet Secondary School</a>
+    <a class="navbar-brand" href="Index.html"><img src="images/logo.png" alt="LSS" width="90" height="90" ><span>Lanet Secondary School</span></a>
     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
     </button>
@@ -27,8 +27,17 @@
         <li class="nav-item ">
           <a class="nav-link " href="Academics.html" >Academics</a>
         </li>
-          <li class="nav-item ">
-          <a class="nav-link active " aria-current="page" href="Students.html" >Students' Center</a>
+          <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle nav-link active"  aria-current="page"href="About.html" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+            Students' center
+          </a>
+          <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+              <li><a class="dropdown-item" href="#student-leader">Student Leadership</a></li>
+            <li><a class="dropdown-item" href="Careers.html">Career Guidance</a></li>
+            <li><a class="dropdown-item" href="#">Clubs</a></li>
+            <li><hr class="dropdown-divider"></li>
+            <li><a class="dropdown-item" href="#">Games and Sports</a></li>
+          </ul>
         </li>
           <li class="nav-item">
           <a class="nav-link" href="Index.html.#gallery">Media & Gallery</a>
@@ -45,75 +54,40 @@
         </li>
         
       </ul>
-      
+     
     </div>
   </div>
 </nav>
-            
-            <a class="btn btn-primary" href="Form1.html" role="button">Form 1 Exams</a>
-            <a class="btn btn-primary" href="Form2.html" role="button">Form 2 Exams</a>
-            <a class="btn btn-primary" href="Form4.html" role="button">Form 4 Exams</a>
         </header>
-         <div class="academ">
-         <h1>Download Form 3 Exams and Assignments here</h1>
-         </div>
-         
-<div class="container">
-    <div class="row">
-         <div class="col-md-6 col-sm-12">
-        <h2 class="text-danger">Holiday Assignments</h2>  
-            <ul>
-    <li> <a href="documents/Admission%20letter.doc" download>
-         <p>Mathematics</p>
-        </a></li>
-              <li> <a href="documents/Admission%20letter.doc" download>
-         <p>English</p>
-                  </a></li>
-              <li> <a href="documents/Admission%20letter.doc" download>
-         <p>Kiswahili</p>
-                  </a></li>
-             <li>  <a href="documents/Admission%20letter.doc" download>
-         <p>Chemistry</p>
-                 </a></li>
-             <li>  <a href="documents/Admission%20letter.doc" download>
-         <p>Physics</p>
-                 </a></li>
-             <li>  <a href="documents/Admission%20letter.doc" download>
-         <p>Biology</p>
-                 </a></li>
-             
-            </ul>
+         <div class="container-fluid">
+
+        <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+  <div class="carousel-indicators">
+    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+  </div>
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      <img src="images/backpic.JPG" class="d-block w-100" alt="...">
     </div>
-        <div class="col-md-6 col-sm-12">
-            
-            <ul>
-            <li>  <a href="documents/Admission%20letter.doc" download>
-         <p>CRE</p>
-                 </a></li>
-              <li> <a href="documents/Admission%20letter.doc" download>
-         <p>French</p>
-                  </a></li>
-             <li>  <a href="documents/Admission%20letter.doc" download>
-         <p>Business Studies</p>
-                 </a></li>
-              <li> <a href="documents/Admission%20letter.doc" download>
-         <p>Agriculture</p>
-                  </a></li>
-            <li>   <a href="documents/Admission%20letter.doc" download>
-         <p>History and Government</p>
-                </a></li>
-             <li>  <a href="documents/Admission%20letter.doc" download>
-         <p>Computer Studies</p>
-                 </a></li>
-            <li>  <a href="documents/Admission%20letter.doc" download>
-         <p>Home Science</p>
-                    </a>
-        </li>
-            </ul>
-        </div>
-        </div>
-        
-        </div>
+    <div class="carousel-item">
+      <img src="images/gallery.JPG" class="d-block w-100" alt="...">
+    </div>
+    <div class="carousel-item">
+      <img src="images/DSCF2470.JPG" class="d-block w-100" alt="...">
+    </div>
+  </div>
+  <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Previous</span>
+  </button>
+  <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Next</span>
+  </button>
+</div>
+</div>
 
 
                      <section id="contact">

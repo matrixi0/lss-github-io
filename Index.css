@@ -46,7 +46,7 @@ html {
   -webkit-text-size-adjust: 100%;
   -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
     display: inline;
-    background: url("images/backpic.JPG") no-repeat center center fixed; 
+    background: url("images/baJPG") no-repeat center center fixed; 
     background-size: cover;  
     overflow-x: hidden;
     top: 0;
@@ -143,7 +143,7 @@ a {
   text-decoration: none;
 }
 a:hover {
-  color: #0a58ca;
+  color: yellow;
 }
 
 a:not([href]):not([class]), a:not([href]):not([class]):hover {
@@ -680,7 +680,7 @@ a:not([href]):not([class]), a:not([href]):not([class]):hover {
 }
 .btn {
     color: white;
-  border: none;
+  border-color: yellow;
   outline: none;
   padding: 10px 16px;
   background-color: maroon;
@@ -703,17 +703,12 @@ a:not([href]):not([class]), a:not([href]):not([class]):hover {
     margin-right: 5px;
     vertical-align: middle;
 }
-.grida {
-     
-    font-size: 20px;
-  text-align: center;
- 
-}
 
 .footer {
     
   background-color: maroon;
   color: #ffffff;
+  align-content: center;
   text-align: center;
   font-size: 15px;
   padding: 10px;
@@ -743,7 +738,7 @@ video {
 	letter-spacing: 1px;
 }
 .navbar-light .navbar-brand span {
-	color: #1977cc;
+	color: maroon;
 }
 .w-100 {
 	height: 100vh;
