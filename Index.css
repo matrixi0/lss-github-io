@@ -1441,7 +1441,7 @@ video {
 	top: 50%;
 	left: 50%;
 	min-width: 100%;
-	max-height: 100%;
+	min-height: 100%;
 	width: auto;
 	height:auto;
 	z-index: 0;
@@ -1700,6 +1700,12 @@ video {
 	background: rgba(0, 0, 0, 0.4);
 	z-index: 1;
 }
+.d-block {
+  display: block !important;
+}
+.w-100 {
+  width: 100% !important;
+}
 @media (max-width:600px){
     .wrapper {
 width: 100%;
@@ -1721,4 +1727,21 @@ font-size: 11px;
 .nav-area {
 text-align: center;
 }
-
+@media only screen and (max-width: 767px) {
+	.navbar-nav {
+		text-align: center
+	}
+	.carousel-caption {
+		bottom: 165px
+	}
+	.carousel-caption h5 {
+		font-size: 16px
+	}
+	.carousel-caption a {
+		padding: 10px 15px;
+		font-size: 14px
+	}
+	.navbar .appbtn {
+		display: none;
+	}
+}
