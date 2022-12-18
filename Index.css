@@ -49,7 +49,7 @@ html {
   -webkit-text-size-adjust: 100%;
   -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
     display: inline;
-    background: url("images/ou%20scho.jpg") no-repeat center center fixed; 
+    background: url("") no-repeat center center fixed; 
     background-size: contain;  
     overflow-x: hidden;
     top: 0;
@@ -1710,7 +1710,7 @@ video {
 }
 @media (max-width:600px){
     span{
-        font-style: italic;
+        
         color: maroon;
         font-size: 1.0rem;
     }
