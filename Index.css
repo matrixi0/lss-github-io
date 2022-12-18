@@ -38,6 +38,7 @@ html {
     scroll-behavior: smooth;
 }
  body {
+     max-width: 100%;
      height: 100%;
   font-family: var(--bs-font-sans-serif);
   font-size: 1rem;
@@ -47,10 +48,10 @@ html {
   background-color: #fff;
   -webkit-text-size-adjust: 100%;
   -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
-    display: block;
+    display: inline;
     background: url("images/ou%20scho.jpg") no-repeat center center fixed; 
-    background-size: cover;  
-    overflow: hidden;
+    background-size: contain;  
+    overflow-x: hidden;
     top: 0;
     left: 0;
       
@@ -1437,14 +1438,14 @@ a:not([href]):not([class]), a:not([href]):not([class]):hover {
 }
 
 video {
-    
+    overflow-x: hidden;
 	position: absolute;
 	top: 50%;
 	left: 50%;
 	min-width: 100%;
 	min-height: 100%;
 	width: auto;
-	height:100%;
+	height:auto;
 	z-index: 0;
 	transform: translateX(-50%) translateY(-50%);
 }
@@ -1708,11 +1709,16 @@ video {
   width: 100% !important;
 }
 @media (max-width:600px){
+    span{
+        font-style: italic;
+        color: maroon;
+        font-size: 1.0rem;
+    }
     .wrapper {
 width: 100%;
 }
 .logo {
-float: none;
+float:none;
 width: 20%;
 text-align: center;
 margin: auto;
@@ -1728,7 +1734,17 @@ font-size: 11px;
 .nav-area {
 text-align: center;
 }
+    .row img{
+        height: 250px;
+        width: 250px;
+        
+    }
 @media only screen and (max-width: 767px) {
+    span{
+        font-weight: 100;
+        color: maroon;
+        font-size: 1.0rem;
+    }
 	.navbar-nav {
 		text-align: center
 	}
@@ -1745,4 +1761,9 @@ text-align: center;
 	.navbar .appbtn {
 		display: none;
 	}
+     .row img{
+        height: 250px;
+        width: 250px;
+        
+    }
 }
