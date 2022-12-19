@@ -1659,6 +1659,10 @@ video {
 
 /* New Carousel*/
 
+.carousel-item {
+	height: 100vh;
+	max-height: 900px;
+}
 .carousel-caption {
 	bottom: 220px;
 	z-index: 2;
@@ -1703,7 +1707,8 @@ video {
   display: block!important;
 }
 .w-100 {
-     width: 100% !important;
+   
+  width: 100% !important;
 }
 @media (max-width:576px){
     h2{
