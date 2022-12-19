@@ -1263,6 +1263,13 @@ a:not([href]):not([class]), a:not([href]):not([class]):hover {
     color: yellow;
     text-align: justify;
 }
+.copyright{
+    background-color: blue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
 
 
 
@@ -1749,11 +1756,21 @@ font-size: 11px;
 .nav-area {
 text-align: center;
 }
-    .row img{
-        margin:0;
+    .admin{
+        font-size: 14px;
+    }
+.admin img{
+    border-radius: 15px;
+        margin:10px;
+        height: 200px;
+        width: 200px;
         
-        height: 350px;
-        width: 350px;
+    }
+    .downloads img{
+         margin:5px;
+        height: 54px;
+        width: 54px;
+        
         
     }
 }
@@ -1776,24 +1793,37 @@ text-align: center;
         font-size: 1.0rem;
     }
 	.navbar-nav {
-		text-align: center
+		text-align: center;
 	}
 	.carousel-caption {
-		bottom: 165px
+		bottom: 125px;
 	}
 	.carousel-caption h5 {
-		font-size: 16px
+		font-size: 20px;
 	}
 	.carousel-caption a {
 		padding: 10px 15px;
-		font-size: 14px
+		font-size: 14px;
 	}
 	.navbar .appbtn {
 		display: none;
 	}
-     .row img{
+     .admin img{
         height: 250px;
         width: 250px;
         
     }
+    video {
+    margin-bottom: 0px;
+    overflow-x: hidden;
+	position: absolute;
+	top: 70%;
+	left: 50%;
+	min-width: 100%;
+	max-height: 100%;
+	width: auto;
+	height:90%;
+	z-index: 0;
+	transform: translateX(-50%) translateY(-50%);
+}
 }

@@ -1253,7 +1253,7 @@ a:not([href]):not([class]), a:not([href]):not([class]):hover {
 .academ{
     text-align: center;
     color: yellow;
-    margin-bottom: 350px;
+    margin-bottom: 400px;
 }
 
 .text-center{
@@ -1263,7 +1263,13 @@ a:not([href]):not([class]), a:not([href]):not([class]):hover {
     color: yellow;
     text-align: justify;
 }
-
+.copyright{
+    background-color: gray;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
 
 
 .foter{
@@ -1706,7 +1712,7 @@ video {
      width: 100% !important;
 }
 @media (max-width:576px){
-    h2{
+    h2,h3{
         color: maroon;
     }
      .btn {
@@ -1744,13 +1750,7 @@ font-size: 11px;
 .nav-area {
 text-align: center;
 }
-    .row img{
-        margin:0;
-        
-        height: 350px;
-        width: 350px;
-        
-    }
+    
 }
 @media only screen and (max-width: 767px) {
    
@@ -1786,9 +1786,4 @@ text-align: center;
 	.navbar .appbtn {
 		display: none;
 	}
-     .row img{
-        height: 250px;
-        width: 250px;
-        
-    }
 }
