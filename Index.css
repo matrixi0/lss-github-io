@@ -1251,9 +1251,19 @@ a:not([href]):not([class]), a:not([href]):not([class]):hover {
     
 }
 .academ{
+    width: 100%;
+    padding: 3px;
+    background-color: maroon;
     text-align: center;
     color: yellow;
     margin-bottom: 400px;
+}
+.hero-image{
+    text-align: center;
+    
+    width: 100%;
+    justify-content: center;
+    align-items: center;
 }
 
 .text-center{
@@ -1711,6 +1721,7 @@ video {
 .w-100 {
      width: 100% !important;
 }
+
 @media (max-width:576px){
     h2,h3{
         color: maroon;
@@ -1783,6 +1794,10 @@ text-align: center;
 		padding: 10px 15px;
 		font-size: 14px
 	}
+    .carousel-inner>.carousel-item>img{
+    width: 640px;
+    height: 360px;
+}
 	.navbar .appbtn {
 		display: none;
 	}
